@@ -9,6 +9,7 @@ public:
     int orangesRotting(vector<vector<int>>& grid) {
         if (grid.empty())
             return -1;
+        
         // counters
         int min_cnt = 0, fresh_cnt = 0;
         // auxiliary variables
